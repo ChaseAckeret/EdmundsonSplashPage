@@ -1,0 +1,35 @@
+body{
+    background-color:black;
+}
+
+#responsive-image{
+    width: 50vw;
+    height: 25%;
+    margin-left: 25%;
+    margin-top: 10%;
+    
+}
+
+.info{
+    position: relative;
+    text-align:center;
+    font-size: 1.5vw;
+}
+
+.icons{
+    position: relative;
+    background-color: chartreuse;
+}
+
+p{
+    cursor: pointer;
+    color: white;
+}
+
+p:hover{
+    color: gray;
+}
+
+a{
+    text-decoration-line: none;
+}

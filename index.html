@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="logo">
+    <img src="Edmundson.png" alt="Edmundson RV" id="responsive-image" />
+  </div>
+  <div class="info" id="responsive-info">
+    <p id="address" onclick="mapsSelector()">14501 N. U.S. Highway 31 Edinburgh, IN 46124</p>
+    <a href="tel:812-526-7878"><p id="phoneNumber">(812) 526-7878</p></a>
+    <a href="https://www.edmundsonrv.com"><p id="website">www.edmundsonrv.com</p></a>
+  </div>
+  <div class="icons">
+    <p></p>
+  </div>
+</body>
+</html>
+<script>
+  function mapsSelector()
+  {
+    // If we're on IOS, open in Apple Map
+    if((navigator.platform.indexOf("iPhone") != -1) ||
+       (navigator.platform.indexOf("iPad") != -1) ||
+       (navigator.platform.indexOf("iPod") !=-1))
+    window.open("maps://maps.google.com/maps/dir/?daddr=39.33295,-85.97015&amp;11=");
+
+    // Else use Google
+    else
+    window.open("https://maps.google.com/maps/dir/?daddr=39.33295,-85.97015&amp;11=");
+  }
+</script>
