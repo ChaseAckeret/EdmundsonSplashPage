@@ -52,35 +52,38 @@ body{
     z-index: 1;
 }
 
+.center{
+    position: relative;
+    margin-left: 3vw;
+    width: 91.75vw;
+    height: 100vh;
+}
+
 #responsive-image{
     position: absolute;
     width: 90vw;
     height: 50vh;
-    margin-left: 1vw;
-    margin-right: 3vw;
-    margin-top: 3vw;
+    top: 0;  
 }
 
 .info{
     position: absolute;
     text-align:center;
-    font-size: 2vw;
+    font-size: 24pt;
     font-family: Nexa Light;
-    margin-top: 22vw;
     width: 91.75vw;
+    height: 30vh;
     z-index: 1;
+    margin-top: 45vh;
+    left:0;
 }
 
 .icons{
-    background-color: blue;
     height: 20vh;
     width: 91.75vw;
-    position: relative;
-    background-color: gray;
-    margin-left: 3vw;
-    margin-right: 3vw;
+    bottom: 0;
     position: absolute;
-    margin-top: 38vw;
+    background-color: blue;
 }
 
 p{
@@ -94,9 +97,4 @@ p:hover{
 
 a{
     text-decoration-line: none;
-}
-
-.center{
-    position: relative;
-    margin-left: 3vw;
 }
