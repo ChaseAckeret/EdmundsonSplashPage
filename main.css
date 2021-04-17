@@ -1,35 +1,102 @@
 body{
-    background-color:black;
+    background-color:#282f38;
+}
+
+.right-decorations{
+    position: absolute;
+    background-color: #46b649;
+    width:3vw;
+    height:100vh;
+    float: right;
+    z-index: 0;
+}
+
+.left-decorations{
+    position: relative;
+    background-color: white;
+    width: 3vw;
+    height: 100vh;
+    float: right;
+    z-index: 0;
+}
+
+#dark{
+    position: relative;
+    background-color: #279546;
+    width: 3vw;
+    height: 25%;
+    z-index: 1;
+}
+
+#med-dark{
+    position: relative;
+    background-color: #2cb34a;
+    width: 3vw;
+    height: 25%;
+    z-index: 1;
+}
+
+#med-light{
+    position: relative;
+    background-color: #55b948;
+    width: 3vw;
+    height: 25%;
+    z-index: 1;
+}
+
+#light{
+    position: relative;
+    background-color: #6cbe45;
+    width: 3vw;
+    height: 25%;
+    z-index: 1;
 }
 
 #responsive-image{
+    position: absolute;
     width: 90vw;
-    height: 45%;
-    margin-left: 2.5%;
-    margin-top: 10%;
-    
+    height: 50vh;
+    margin-left: 1vw;
+    margin-right: 3vw;
+    margin-top: 3vw;
 }
 
 .info{
-    position: relative;
+    position: absolute;
     text-align:center;
-    font-size: 3vw;
+    font-size: 2vw;
+    font-family: Nexa Light;
+    margin-top: 22vw;
+    width: 91.75vw;
+    z-index: 1;
 }
 
 .icons{
+    background-color: blue;
+    height: 20vh;
+    width: 91.75vw;
     position: relative;
-    background-color: chartreuse;
+    background-color: gray;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    position: absolute;
+    margin-top: 38vw;
 }
 
 p{
     cursor: pointer;
-    color: white;
+    color: #46b649;
 }
 
 p:hover{
-    color: gray;
+    color: white;
 }
 
 a{
     text-decoration-line: none;
+}
+
+.center{
+    position: relative;
+    margin-left: 3vw;
 }
